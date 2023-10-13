@@ -47,3 +47,28 @@ function showPippo($arg1, $arg2, $pippo)
 
 showPippo(1, 2, $pippo); // invochiamo la funzione, passando 2 parametri
 var_dump($pippo);
+
+
+
+
+
+/* function () {
+
+} */
+
+// global variable
+$user = 'fabio';
+
+function dd(...$params)
+{
+
+  //var_dump($user); // undefiled variable out of scope
+  foreach ($params as $param) {
+    var_dump($param);
+  }
+  die;
+}
+
+//dd('ciao', ['item', 'item']);
+
+var_dump('can you see this?');

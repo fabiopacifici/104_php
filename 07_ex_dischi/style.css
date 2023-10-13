@@ -1,0 +1,30 @@
+:root
+{
+  --bg-darker: #06131f;
+  --bg-dark: #1d2d3c;
+  --bg-primary: #112030;
+  --bg-accent: #18d860;
+}
+
+
+body {
+  background-color: var(--bg-dark);
+}
+
+header {
+  background-color: var(--bg-darker);
+}
+
+.card {
+  background-color: var(--bg-primary);
+}
+
+
+.albums {
+  text-align: center;
+  & .card-title {
+    color: gray;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+  }
+}
