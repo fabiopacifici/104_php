@@ -6,8 +6,6 @@ require __DIR__ . '/Models/Toy.php';
 require __DIR__ . '/Models/House.php';
 require __DIR__ . '/database/db.php';
 
-
-
 /* 
 
 Immaginare quali sono le classi necessarie per creare uno shop online con le seguenti caratteristiche:
